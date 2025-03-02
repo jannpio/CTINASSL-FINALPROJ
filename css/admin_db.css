@@ -33,7 +33,7 @@ body {
     margin-bottom: 15px;
 }
 .sidebar a:hover {
-    background-color: #ffffff; 
+    background-color: #49180c; 
     width: 200px;
     font-weight: bold;
 }
@@ -69,7 +69,7 @@ body {
     gap: 5px;
 }
 .card-metric {
-    background: linear-gradient(135deg, #cb411e 0%, #c88521 100%);
+    background: linear-gradient(135deg, #cb411e 0%, #986631 100%);
     color: white;
     width: 350px;
     border-radius: 8px;
