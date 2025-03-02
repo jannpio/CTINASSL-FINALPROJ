@@ -1,0 +1,101 @@
+.bg-page {
+    background: url('../images/user-bg.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu-page {
+    background: url('../images/menu-bg.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cat-page {
+    background: url('../images/cats-bg.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.newarrivals-page {
+    background: url('../images/newarrivals-bg.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    height: 100vh;
+}
+.navbar {
+    width: 100%;
+    padding: 10px 20px;
+}
+.navbar .container {
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-nav {
+    display: flex;
+    gap: 15px;
+}
+.navbar-nav .nav-link {
+    color: #cb2d04;
+    transition: color 0.3s ease-in-out, font-weight 0.3s ease-in-out;
+    font-size: 16px;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: #ff9900 !important;
+    font-weight: bold;
+}
+.image-card {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center;
+}
+.image-card img {
+    width: 90%;
+    height: auto;
+    filter: brightness(60%);
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+.image-card:hover img {
+    transform: scale(1.05);
+    filter: brightness(100%);
+}
+.cat-card {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center;
+    width: 90%; 
+    height: 220px; 
+}
+.cat-card img {
+    width: 90%;
+    height: 100%; 
+    object-fit: cover; 
+    filter: brightness(60%);
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+.cat-card:hover img {
+    transform: scale(1.05);
+    filter: brightness(100%);
+}
+.overlay-text {
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+}
+.overlay-text h4 {
+    font-size: 18px;
+    margin: 0;
+}
+.overlay-text p {
+    font-size: 14px;
+    margin: 0;
+}
+.body-content{
+    padding-top: 180px;
+}

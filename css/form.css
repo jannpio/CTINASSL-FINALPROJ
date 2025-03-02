@@ -1,0 +1,56 @@
+body {
+    height: 100vh;     
+}
+.login-page {
+    background: url('../images/login-bg.png') no-repeat center center fixed;
+    background-size: cover;
+    padding-right: 15%;
+    margin-top: -40px;
+}
+.login-box {
+    padding: 30px;
+    border-radius: 20px;
+    width: 550px;
+    text-align: center;
+}
+.welcome-text {
+    font-family: Georgia, serif;
+    letter-spacing: 4px;
+}
+.login-box input {
+    background-color: #d9c2a8; 
+    border-radius: 20px;
+    padding: 10px;
+    height: 40px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+.login-box input:focus {
+    background-color: #f5e3c7; 
+    border-color: #000000; 
+    outline: #cb2d04; 
+}
+
+.login-box .btn-login {
+    background-color: #cb2d04;
+    color: white;
+    border-radius: 5px;
+    width: 50%;
+    font-family: Arial, sans-serif;
+}
+.login-box .btn-login:hover {
+    background-color: #a04000;
+}
+.text {
+    font-family: Arial, sans-serif;
+    letter-spacing: normal;
+}
+.text a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #cb2d04;
+}
+.text a:hover {
+    text-decoration: underline;
+}
